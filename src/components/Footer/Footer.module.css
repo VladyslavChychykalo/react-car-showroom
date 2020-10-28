@@ -1,0 +1,80 @@
+.wrapper {
+  margin: 0 auto;
+  width: calc(100% - 50px);
+  background: #262626;
+  padding: 20px 50px 20px 50px;
+}
+
+.topBlock {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.topBlock p {
+  font-size: 14px;
+  color: #00adef;
+}
+
+.topBlock button {
+  font-size: 16px;
+  color: #fff;
+  background: transparent;
+  border: none;
+}
+
+.middleBlock {
+  border-top: 1px solid #767676;
+  border-bottom: 1px solid #767676;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logo {
+  flex-direction: row;
+  fill: #bfbfbf;
+  width: 31px;
+  height: 32px;
+  margin-right: 40px;
+}
+
+.logo:nth-child(2) {
+  width: 40px;
+  height: 40px;
+}
+
+.logo:last-child {
+  margin-right: 0;
+}
+
+.logoContainer {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.bottomBlock {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+.linksContainer:last-child {
+  margin-right: 0;
+}
+
+.linksContainer p {
+  margin-bottom: 15px;
+}
+
+.linksContainer a {
+  color: #999999;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
